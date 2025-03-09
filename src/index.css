@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #14a800; /* Upwork's green color */
+}
+
+nav .links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+nav .links a:hover {
+    color: #14a800;
+}
+
+nav .buttons button {
+    background-color: #14a800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+nav .buttons button:hover {
+    background-color: #128038;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #e6f4ea, #d1f0d5); /* Gradient background */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001e00; /* Dark green for heading */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.hero .search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero input {
+    padding: 15px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.hero button {
+    background-color: #14a800;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.hero button:hover {
+    background-color: #128038;
+}
+
+/* Footer */
+footer {
+    background-color: #001e00; /* Upwork's dark green color */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #a7f3d0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
